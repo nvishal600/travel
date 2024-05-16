@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alegreya Sans SC", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+    scroll-behavior: smooth;
+}
+
+#dayItinerarySlider{
+    width: 70%;
+}
+
+#sightseeingSlider{
+    width: 100%;
+}
+
+.width-of-card{
+    width: 25%;
+}
+
+nav {
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #73664c;
+    color: #ffff;
+    padding-left: 20px;
+    /* margin-bottom: 9px; */
+}
+
+nav img {
+    scale: 0.8;
+    object-fit: cover;
+}
+
+.nav-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.slide-vedio {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    object-fit: cover;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+/* .slide-first img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+} */
+.slide img {
+    width: 100%;
+    height: 88vh;
+    object-fit: cover;
+}
+
+
+.first-page {
+    width: 100%;
+    /* background-image: url(./assets/images/image3.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+    position: relative;
+    margin-top: -9px;
+}
+
+.background-blur {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 81vh;
+    /* backdrop-filter: invert(10%); */
+    padding: 50px;
+    margin-top: 9px;
+}
+
+.first-div {
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.first-div div {
+    color: #FFFFFF;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.Kaziranga-headings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    overflow-wrap: break-word;
+    font-family: 'MillerDisplay', 'Roboto Condensed';
+    font-weight: 400;
+}
+.Kaziranga-headings span{
+    overflow-wrap: break-word;
+    font-family: 'MillerDisplay', 'Roboto Condensed';
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.Kaziranga-headings img {
+    scale: 0.5;
+}
+.img {
+    margin-top: 10px;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 100px;
+}
+
+.second-div>.heading {
+    display: inline-block;
+    align-self: center;
+    overflow-wrap: break-word;
+    font-family: 'Georgia', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
+
+.date {
+    display: inline-block;
+    align-self: center;
+    overflow-wrap: break-word;
+    font-family: 'MillerDisplay', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.083;
+    color: #FFFFFF;
+}
+
+.child {
+    display: inline-block;
+    align-self: center;
+    overflow-wrap: break-word;
+    font-family: 'Circular Pro', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 2.9px;
+    line-height: 0.817;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.line {
+    height: 2px;
+    width: 300px;
+    background-color: #c1aa7f;
+}
+
+
+
+.left-icon,
+.right-icon {
+    background-color: #c1aa7f;
+    width: 60px;
+    height: 60px;
+    padding: 2px 16px;
+    position: absolute;
+}
+
+.left-icon {
+    left: 0;
+    height: 52px;
+    width: 49px;
+    padding: 5px 10px;
+}
+
+.right-icon {
+    transform: rotate(180deg);
+    right: 0;
+    height: 52px;
+    width: 49px;
+    padding: 5px 10px; 
+}
+.seven-page-lastdiv{
+    width: 90%;
+}
+
+.self-drive-vertical-lines{
+    scale: 0.40
+}
+
+.seven-page-lastdiv {
+    width: 90%;
+}
+
+#copyText {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    overflow-wrap: break-word;
+    font-family: 'MillerDisplay', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.75;
+    text-transform: capitalize;
+    color: #000000;
+    outline: none;
+}
+
+#copylabel {
+    border: none;
+    overflow-wrap: break-word;
+    font-family: 'MillerDisplay', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.75;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+
+
+
+
+#copycode {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    overflow-wrap: break-word;
+    font-family: 'MillerDisplay', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.75;
+    text-transform: capitalize;
+    color: #000000;
+    outline: none;
+}
+
+.card-body h4{
+    font-family: 'MillerDisplay', 'Roboto Condensed';
+}
+.card-body p{
+    font-family: 'MillerDisplay', 'Roboto Condensed';
+}
