@@ -76,7 +76,7 @@
     line-height: 1.267;
     color: #000000;
     background-color: #F3EEE5;
-    padding: 9px 318.5px 9px 326.5px;
+    padding: 9px 285px;
     margin-bottom: 0px;
 }
 
@@ -215,8 +215,8 @@
 .transfer-vertical-line {
     position: absolute;
     transform: rotate(90deg);
-    left: -37px;
-    bottom: 151px;
+    left: -64px;
+    bottom: 142px;
     scale: 0.5;
 }
 
