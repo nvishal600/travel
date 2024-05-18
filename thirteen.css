@@ -45,6 +45,7 @@
 }
 
 .our-bank-details-point p {
+    text-wrap: pretty;
     overflow-wrap: break-word;
     font-family: 'MillerDisplay', 'Roboto Condensed';
     font-weight: 400;
