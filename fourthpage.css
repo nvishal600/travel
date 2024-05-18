@@ -22,11 +22,11 @@
     overflow-wrap: break-word;
     font-family: 'Circular Pro', 'Roboto Condensed';
     font-weight: 500;
-    font-size: 21px;
+    font-size: 24px;
     letter-spacing: 2.5px;
     color: #ffff;
     padding: 10.5px 0 10.5px 1.9px;
-    width: 80%;
+    width: 718px;
     text-align: center;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .left-four-day2 h2 {
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
     overflow-wrap: break-word;
     font-family: 'MillerDisplay', 'Roboto Condensed';
@@ -76,8 +76,14 @@
     line-height: 1.267;
     color: #000000;
     background-color: #F3EEE5;
-    padding: 9px 285px;
+    padding: 9px 0px;
+    width: 718px;
     margin-bottom: 0px;
+}
+
+#transferSlider{
+    height: 381px;
+    width: 718px;
 }
 
 .left-four-day2 img {
