@@ -1,4 +1,4 @@
-@media screen and (min-width: 360px) and (max-width: 430px) {
+@media screen and (min-width: 360px) and (max-width: 431px) {
 
     html,
     body {
@@ -24,7 +24,7 @@
     }
 
     .slide img {
-        height: 58vh;
+        height: 59vh;
     }
 
     .background-blur {
@@ -80,6 +80,7 @@
     .slide-vedio {
         width: auto;
         margin-top: 0;
+        height: 59vh;
     }
 
     .second-page-para {
@@ -172,7 +173,8 @@
 
     .left-day1 h2 {
         font-size: 29px;
-        padding: 9px 94px;
+        padding: 9px 93px;
+        margin-bottom: -11px;
     }
 
     #dayItinerarySlider {
@@ -190,23 +192,26 @@
 
     .Kaziranga-para {
         width: 60%;
-        padding-left: 106px;
+        padding-left: 100px;
         margin-top: 0px;
     }
 
     .car3 span {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .hotel span {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .tour-detail-first {
         width: 50%;
-        margin-left: -8px;
+        margin-left: 8px;
     }
 
+    .car3 {
+        margin-left: 1px;
+    }
     .car3 img {
         scale: 0.24;
         margin-bottom: 0px;
@@ -219,7 +224,11 @@
 
     .remarks {
         font-size: 16px;
-        width: 47%;
+        width: 42%;
+    }
+
+    .remarks span{
+        font-size: 16px;
     }
 
     .content2 span {
@@ -237,15 +246,19 @@
 
     .Sightseeing-img h2 {
         font-size: 29px;
-        padding: 9px 109px;
+        padding: 9px 106px;
+        margin-bottom: -10.49px;
     }
 
     .SOHO-heading {
-        width: 48%;
+        width: 49%;
+        margin-bottom: -8px;
     }
 
     .SOHO-heading span {
-        font-size: 25px;
+        font-size: 24px;
+        margin-left: -11px;
+        margin-bottom: 7px;
     }
 
     .add-city {
@@ -255,21 +268,36 @@
         padding-left: 0px;
     }
 
+    .add-city span {
+        font-size: 22px;
+        line-height: 1.267;
+        margin-left: -16px;
+    }
+
     .SOHO-para {
         width: 42%;
-        padding-left: 46px;
+        padding-left: 29px;
         font-size: 14px;
+    }
+    .SOHO-para span {
+        font-size: 16px;
     }
 
     .tour-detail-1 {
         gap: 0px;
         padding-right: 0px;
-        width: 60%;
+        width: 70%;
+        margin-left: 58px;
     }
 
     .car4 span {
-        font-size: 18px;
-        margin-left: -70px;
+        font-size: 17px;
+        margin-left: -77px;
+    }
+
+    .car4 img {
+        scale: 0.25;
+        margin: auto;
     }
 
     .left-four-day2 {
@@ -278,8 +306,8 @@
 
     .left-four-day2 h2 {
         font-size: 29px;
-        padding: 9px 128px;
-        margin-bottom: 1px;
+        width: 80%;
+        margin-bottom: 0px;
     }
 
     .transfer-location {
@@ -320,8 +348,8 @@
     }
 
     .transfer-vertical-line {
-        left: -116px;
-        bottom: 149px;
+        left: -133px;
+        bottom: 136px;
     }
 
     .tour-detail-2 {
@@ -340,15 +368,17 @@
     }
 
     .fouth-car {
-        margin-left: -9px;
+        margin-left: -30px;
     }
+
+    
 
     .remarks1-span {
         font-size: 17px;
     }
 
     .remarks1 {
-        width: 132%;
+        width: 133%;
         gap: 3px;
         margin-top: -10px;
         margin-right: 0px;
@@ -358,13 +388,21 @@
         font-size: 17px;
     }
 
+    .remarks1-span span {
+        font-size: 19px;
+    }
+
+    .remarks1-ul li {
+        font-size: 17px;
+    }
+
     .left-fifth-day3 {
-        width: 43%;
+        width: 40%;
     }
 
     .left-fifth-day3 h2 {
         font-size: 29px;
-        padding: 9px 148px;
+        width: 79%;
         margin-bottom: 1px;
     }
 
@@ -374,18 +412,20 @@
 
     .Kaziranga-heading span {
         font-size: 28px;
+        margin-bottom: 4px;
+        margin-left: -10px;
     }
 
     .kaziranga-hoteladdress-location {
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-        margin-left: 68px;
-        width: 32%;
+        width: 39.5%;
+    }
+
+    .kaziranga-hoteladdress-location h4 {
+        margin-left: 1px;
     }
 
     .content3 {
-        margin-left: -52px;
+        margin-left: -61px;
         width: 61%;
     }
 
@@ -394,7 +434,12 @@
     }
 
     .car5 span {
-        font-size: 17px;
+        font-size: 16px;
+    }
+
+    .car5 img {
+        scale: 0.25;
+        margin: auto;
     }
 
     .tour-detail {
@@ -403,10 +448,9 @@
     }
 
     .hotel {
-        width: 55%;
-        margin-right: 16px;
+        width: 50%;
+        margin-right: 59px;
     }
-
     .tour-detail-meal {
         width: 44%;
         gap: 10px;
@@ -471,11 +515,20 @@
 
     .child1 p {
         font-size: 15px;
+        font-family: 'MillerDisplay', 'Roboto Condensed';
     }
 
+    .seventh-page {
+        margin-top: 0px;
+    }
     .child1-2 {
         width: 83%;
         margin-top: 20px;
+        margin-bottom: -30px;
+    }
+
+    .seventh-title {
+        font-size: 28px;
     }
 
     .seventh-first-div {
@@ -520,7 +573,7 @@
     }
 
     .Pick-up-date {
-        margin-left: 43px;
+        margin-left: 38px;
     }
 
     .eight-page h1 {
@@ -565,9 +618,9 @@
     }
 
     .self-drive-vertical-line img {
-        scale: 0.6;
-        bottom: -74px;
-        right: 148px;
+        scale: 0.56;
+        bottom: -66px;
+        right: 150px;
     }
 
     .eight-page p {
@@ -578,7 +631,7 @@
     .self-drive-vertical-lines img {
         scale: 0.99;
         bottom: -34px;
-        right: 543px;
+        right: 556px;
     }
 
 
@@ -609,7 +662,7 @@
     }
 
     .arrival-from {
-        margin-left: 95px;
+        margin-left: 77px;
     }
 
     .departure-to {
@@ -623,8 +676,8 @@
 
     .arrival-text p {
         font-size: 20px;
-
         margin-left: -3px;
+        width: 86%;
     }
 
     .departure-text p {
@@ -634,9 +687,21 @@
     }
 
     .arrival-departure-vertical-line img {
-        scale: 0.83;
-        bottom: 156px;
-        right: -172px;
+        scale: 0.86;
+        bottom: 176px;
+        right: -169px;
+    }
+
+    .tour-price{
+        margin: 0px 10px;
+    }
+
+    .arrival-price{
+        margin: 0px 10px;
+    }
+
+    .eleventh-main h2 {
+        font-size: 40px;
     }
 
     .arrival-from h3 {
@@ -698,19 +763,31 @@
     }
 
     .our-bank-details h2 {
-        font-size: 30px;
-   
+        font-size: 27px;
         margin-top: 15px;
     }
 
     .our-bank-details-point{
-        margin-left: 76px;
-        width: 100%;
+        margin-left: 100px;
+        width: 110%;
+    }
+
+    .our-bank-details-point p {
+        margin-right: 54px;
+        width: 85%;
     }
 
     .pay-travel h2 {
         font-size: 30px;
         margin-top: -20px;
+    }
+
+    .Kaziranga-headings span {
+        margin-left: -10px;
+    }
+
+    .Kaziranga-headings img {
+        scale: 0.4;
     }
 
 
