@@ -701,7 +701,7 @@
     }
 
     .eleventh-main h2 {
-        font-size: 40px;
+        font-size: 32px;
     }
 
     .arrival-from h3 {
@@ -2024,7 +2024,7 @@
 }
 
 /* Desktops */
-@media screen and (min-width: 1270px) and (max-width: 1280px) {
+@media(max-width: 1280px) {
 
     .slide-vedio {
         width: auto;
