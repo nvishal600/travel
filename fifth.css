@@ -39,9 +39,15 @@
     line-height: 1.267;
     color: #000000;
     background-color: #F3EEE5;
-    padding: 9px 343px;
+    padding: 9px 0px;
+    width: 718px;
     margin-bottom: 0px;
 
+}
+
+#mealsSlider{
+    height: 381px;
+    width: 718px;
 }
 
 .left-fifth-day3 img {
@@ -55,10 +61,10 @@
     overflow-wrap: break-word;
     font-family: 'Circular Pro', 'Roboto Condensed';
     font-weight: 500;
-    font-size: 21px;
+    font-size: 24px;
     letter-spacing: 2.5px;
     padding: 10.5px 0 10.5px 1.9px;
-    width: 80%;
+    width: 718px;
     text-align: center;
     margin-top: 20px;
     color: #FFFFFF;

@@ -7,18 +7,16 @@
     font-family: 'MillerDisplay', 'Roboto Condensed';
     font-weight: 400;
     font-size: 45px;
-    line-height: 1.289;
     color: #000000;
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 0.08px;
 }
 
 .line2 {
-    height: 2px;
+    height: 1px;
     width: 150px;
     background-color: #c1aa7f;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 .thirdpage-line {
@@ -28,7 +26,7 @@
 }
 
 .day1 {
-    margin-top: 50px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -48,9 +46,9 @@
     flex-direction: row;
     justify-content: center;
     padding: 11px 0 11px 1.9px;
-    width: 70%;
+    width: 718px;
     box-sizing: border-box;
-    font-size: 21px;
+    font-size: 24px;
     color: #ffff;
     font-family: 'Circular Pro', 'Roboto Condensed';
     text-transform: uppercase;
@@ -62,7 +60,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 3px;
     position: sticky;
     top: 25px;
 }
@@ -80,7 +78,7 @@
 }
 
 .left-day1 h2 {
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
     overflow-wrap: break-word;
     font-family: 'MillerDisplay', 'Roboto Condensed';
@@ -89,7 +87,8 @@
     line-height: 1.267;
     color: #000000;
     background-color: #F3EEE5;
-    padding: 9px 250px;
+    padding: 9px 0px;
+    width: 718px;
     margin-bottom: 0px;
 }
 
@@ -258,10 +257,11 @@
     overflow-wrap: break-word;
     font-family: 'MillerDisplay', 'Roboto Condensed';
     font-weight: 400;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.267;
     color: #000000;
     margin-left: -24px;
+    width: 332px;
 }
 
 .car4 {
@@ -284,15 +284,38 @@
     font-size: 21px;
     line-height: 1.267;
     color: #000000;
-    margin-left: -51px;
-    margin-right: 3px;
+    margin-left: -28px;
+    width: 232px;
+}
+
+.hotel1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -65px;
+}
+
+.hotel1 span {
+    overflow-wrap: break-word;
+    font-family: 'MillerDisplay', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.267;
+    color: #000000;
+    margin-left: 4px;
+    width: 332px;
+}
+
+.hotel1 img {
+    scale: 0.6;
+    margin: auto 0;
 }
 
 .hotel {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 47%;
+    margin-left: -65px;
 }
 
 .hotel img {
@@ -304,10 +327,11 @@
     overflow-wrap: break-word;
     font-family: 'MillerDisplay', 'Roboto Condensed';
     font-weight: 400;
-    font-size: 21px;
+    font-size: 24px;
     line-height: 1.267;
     color: #000000;
     margin-left: 4px;
+    width: 217px;
 }
 
 .remarks {
@@ -322,13 +346,14 @@
     display: flex;
     align-items: start;
     margin-bottom: -42px;
+    margin-top: 30px;
 }
 
 .remarks span{
     overflow-wrap: break-word;
     font-family: 'MillerDisplay', 'Roboto Condensed';
     font-weight: 400;
-    font-size: 23px;
+    font-size: 24px;
     line-height: 1.267;
     color: #000000;
 }
@@ -343,6 +368,7 @@
 }
 
 .Sightseeing-img h2 {
+    margin-top: 30px;
     overflow-wrap: break-word;
     font-family: 'MillerDisplay', 'Roboto Condensed';
     font-size: 30px;
@@ -350,7 +376,8 @@
     color: #000000;
     text-align: center;
     background-color: #F3EEE5;
-    padding: 9px 260px;
+    padding: 9px 0px;
+    width: 718px;
     margin-bottom: 0px;
 }
 
@@ -446,9 +473,7 @@
     justify-content: space-around;
     font-family: 'Roboto Condensed';
     align-items: center;
-    gap: 120px;
-    padding-right: 113px;
-    width: 70%;
+    /* width: 70%; */
 }
 
 /* view more */
