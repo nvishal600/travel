@@ -1,13 +1,12 @@
 .eleventh-page {
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .eleventh-page h1 {
-    margin-bottom: 1px;
     overflow-wrap: break-word;
     font-family: 'MillerDisplay', 'Roboto Condensed';
     font-weight: 400;
@@ -23,34 +22,35 @@
     width: 182px;
     background-color: #c1aa7f;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .eleventh-main {
     border: 1px solid black;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-radius: 12px;
     width: 85%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .eleventh-main span{
     overflow-wrap: break-word;
     font-family: 'MillerDisplay', 'Roboto Condensed';
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
 }
 .eleventh-main h2{
     overflow-wrap: break-word;
     font-family: 'MillerDisplay', 'Roboto Condensed';
     font-weight: 400;
-    font-size: 45px;
+    font-size: 32px;
     line-height: 1.289;
     text-transform: capitalize;
     color: #000000;
     background-color: #73664c;
     border-radius: 12px 12px 0px 0px;
     padding-left: 52px;
-    color: #ffff;
+    color: #ffff;    
+    padding: 24px 0px 24px 60px;
 }
 
 .eleventh-main-first img {
